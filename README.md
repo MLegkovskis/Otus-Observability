@@ -1,4 +1,4 @@
-1. **Telemetry Code Integration**: 
+1. **Telemetry Code Integration on top of https://github.com/Zenahr/flask-sqlite3-todo-crud/tree/master**: 
     - A dictionary named `telemetry_data` was added to store metrics related to the number of requests and their response times for each endpoint.
     - The `telemetry_decorator` function was introduced. This decorator collects metrics for each Flask route it's applied to. It increments the request count and aggregates the response time for the endpoint.
     
