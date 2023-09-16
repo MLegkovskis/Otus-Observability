@@ -20,6 +20,15 @@
     flask run
     ```
 
+   ```
+   flask shell
+   ```
+
+   ```python
+   from app import db
+   db.create_all()
+   ```
+
 2. **Test the Endpoints**:
     - **Main Page (GET request to `/`)**:
         ```bash
